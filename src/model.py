@@ -1,9 +1,9 @@
 import os
-import openai # type: ignore
-from dotenv import load_dotenv # type: ignore
-from loguru import logger # type: ignore
-from llama_index import VectorStoreIndex, SimpleDirectoryReader, ServiceContext # type: ignore
-from llama_index.llms import OpenAI as LlamaOpenAI # type: ignore
+import openai
+from dotenv import load_dotenv
+from loguru import logger
+from llama_index import VectorStoreIndex, SimpleDirectoryReader, ServiceContext 
+from llama_index.llms import OpenAI as LlamaOpenAI
 
 
 

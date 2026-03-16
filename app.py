@@ -1,5 +1,5 @@
-import streamlit as st # type: ignore
-import requests # type: ignore
+import streamlit as st
+import requests
 import re
 
 st.set_page_config(page_title="Food Nutrition Dashboard", layout="centered")

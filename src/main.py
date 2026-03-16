@@ -1,5 +1,5 @@
-from fastapi import FastAPI # type: ignore
-from fastapi.responses import JSONResponse # type: ignore
+from fastapi import FastAPI
+from fastapi.responses import JSONResponse
 from src.model import get_nutrition_info
 from src.model import query_nutrition_knowledge
 
